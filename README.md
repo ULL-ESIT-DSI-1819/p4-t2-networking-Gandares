@@ -30,3 +30,15 @@ En el siguiente ejemplo, se crea un programa sencillo para que el cliente se con
 
 ![Html](capturas/client.png)
 
+En el siguiente ejemplo, intentamos mandar un mensaje fragmentado pero al usar "JSON.parse(), que espera cadenas completas, al llegarle la segunda le llega en un formato que no es y suelta un error.
+
+![Html](capturas/testjsonservice.png)
+
+![Html](capturas/errortimesta.png)
+
+En el anterior ejemplo, como vimos, el programa cliente trataba de hacer dos tareas a la vez. Es correcto no agruparlas y al menos convertir una de ellas en un módulo, esto se hará con herencia. En un programa exportamos la funcionalidad en un módulo y en otro importamos el módulo de manejo de mensajes:
+
+![Html](capturas/watcherldj.png)
+
+![Html](capturas/ldj.png)
+
